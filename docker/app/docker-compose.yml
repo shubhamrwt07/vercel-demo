@@ -3,7 +3,7 @@ services:
   vercel-demo:
     image: vercel-demo
     build:
-      context: ../../vercel-demo
+      context: ../../src
       dockerfile: Dockerfile
     container_name: vercel-demo
     ports:
