@@ -10,7 +10,7 @@ services:
         - PORT=3000
   r_server:
     image: r_server
-    build: ../server
+    build: ../../server
     ports:
       - 8081:8081
    
