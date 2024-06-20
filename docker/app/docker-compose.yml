@@ -1,8 +1,8 @@
 version: "2"
 services:
-  rowthtech:
+  vercel-demo:
     image: vercel-demo
-    build: ../src
+    build: ../../
     container_name: vercel-demo
     ports:
         - 3000:3000
