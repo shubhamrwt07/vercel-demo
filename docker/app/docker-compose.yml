@@ -3,8 +3,7 @@ services:
   vercel-demo:
     image: vercel-demo
     build:
-      context: ../../src
-      dockerfile: Dockerfile
+      context: ../../
     container_name: vercel-demo
     ports:
       - "3000:3000"
@@ -15,6 +14,5 @@ services:
     image: r_server
     build:
       context: ../../server
-      dockerfile: Dockerfile
     ports:
       - "8081:8081"
