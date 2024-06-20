@@ -1,10 +1,10 @@
 version: '2'
 services:
   vercel-demo:
-    image: vercel-demo
+    image: vercel
     build:
       context: ../../
-    container_name: vercel-demo
+    container_name: vercel
     ports:
       - "3000:3000"
     environment:
